@@ -1,20 +1,20 @@
-### Getting Started
+## weather look up Website using Ionic + Angular and OpenWeatherMap API
 
-Prerequisites
+- scss
+- Ionic
+- JavaScript
+- Angular
+- for weather (dynamic) data I have used OpenWeatherMap API
+- and some FrameWorks for icons
 
-Node.js (v16+ recommended)
+## Run these commands to run the website
 
-Ionic CLI
+`git clone https://github.com/nothil/area-lookup.git`
 
-### Clone the project
-
-`git clone https://github.com/your-username/ionic-weather-app.git`
-
-`npm install -g @ionic/cli`
-
-`cd weather-app`
 `npm install`
 
-### Run in Browser
-
 `ionic serve`
+
+### Check the complete website on localhost:81000
+
+### I have deployed this website on Vercel for non developers to check it out.
