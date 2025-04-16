@@ -1,0 +1,118 @@
+:host {
+  display: block;
+  background: linear-gradient(to bottom, #2c3e50, #3498db);
+  color: white;
+  min-height: 100vh;
+  padding: 20px;
+
+  .search {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    backdrop-filter: blur(12px);
+  }
+  ion-toolbar {
+    --background: transparent;
+    --color: white;
+    border: none;
+  }
+
+  ion-title {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  ion-content {
+    --background: transparent;
+  }
+
+  ion-item {
+    --background: rgba(255, 255, 255, 0.1);
+    --border-color: transparent;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    backdrop-filter: blur(10px);
+  }
+
+  ion-input {
+    color: white;
+    font-size: 16px;
+    --padding-start: 8px;
+    --padding-end: 8px;
+  }
+
+  ion-button {
+    margin-left: 10px;
+    --border-radius: 12px;
+    --background: rgba(255, 255, 255, 0.2);
+    --color: white;
+    --padding-start: 16px;
+    --padding-end: 16px;
+    font-weight: 500;
+    backdrop-filter: blur(10px);
+  }
+
+  h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 18px;
+    margin: 4px 0;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .weather-info {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    backdrop-filter: blur(12px);
+
+    .save-button {
+      --color: white;
+      font-size: 14px;
+      padding: 6px 12px;
+      border-radius: 20px;
+      backdrop-filter: blur(8px);
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+      margin-top: 16px;
+      align-self: flex-start;
+    }
+  }
+
+  .favorites {
+    margin-top: 40px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    backdrop-filter: blur(12px);
+    ion-list-header {
+      font-size: 20px;
+      font-weight: 600;
+      color: white;
+    }
+
+    ion-item {
+      --background: rgba(255, 255, 255, 0.15);
+
+      border-radius: 10px;
+      margin-bottom: 10px;
+      color: white;
+      font-size: 18px;
+      backdrop-filter: blur(8px);
+    }
+
+    ion-list.favorites {
+      padding: 12px;
+    }
+  }
+}
