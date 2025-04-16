@@ -12,10 +12,19 @@
     margin-top: 20px;
     backdrop-filter: blur(12px);
   }
+
+  ion-header {
+    --background: #1e1e1e;
+    color: white;
+    ion-title {
+      font-weight: bold;
+      font-size: 1.4rem;
+    }
+  }
+
   ion-toolbar {
-    --background: transparent;
+    --ion-toolbar-background: #1e1e1e;
     --color: white;
-    border: none;
   }
 
   ion-title {
@@ -37,6 +46,7 @@
   }
 
   ion-input {
+    border-radius: 12px;
     color: white;
     font-size: 16px;
     --padding-start: 8px;
@@ -52,21 +62,6 @@
     --padding-end: 16px;
     font-weight: 500;
     backdrop-filter: blur(10px);
-  }
-
-  h2 {
-    font-size: 36px;
-    font-weight: 600;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    text-align: center;
-  }
-
-  p {
-    font-size: 18px;
-    margin: 4px 0;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.9);
   }
 
   .weather-info {

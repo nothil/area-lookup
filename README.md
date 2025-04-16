@@ -17,4 +17,6 @@
 
 ### Check the complete website on localhost:81000
 
-### I have deployed this website on Vercel for non developers to check it out.
+### I have deployed this website on Vercel to check it out without running it locally.
+
+[link to website](https://area-lookup.vercel.app/)
